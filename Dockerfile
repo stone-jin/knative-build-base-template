@@ -2,8 +2,8 @@ FROM node:8
 
 COPY ./ ./
 
-RUN npm install
+RUN npm install --production
 
-EXPOSE 12000
+EXPOSE 8000
 
 ENTRYPOINT ["node", "index.js"]

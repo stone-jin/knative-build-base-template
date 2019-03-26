@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
     "@types/koa": "^2.0.48",
-    "koa": "^2.7.0",
     "typescript": "^3.3.4000"
   }
 }
